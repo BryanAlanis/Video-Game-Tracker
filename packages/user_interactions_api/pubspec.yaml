@@ -1,0 +1,14 @@
+name: user_interactions_api
+description: The interface and models for an API providing 
+  access to user interactions (likes, played, ratings, etc).
+publish_to: 'none' # private package
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+dependencies:
+  equatable: ^2.0.5
+  cloud_firestore: ^4.8.2
+  firebase_auth: ^4.20.0

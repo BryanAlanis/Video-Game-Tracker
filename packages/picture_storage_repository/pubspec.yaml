@@ -1,0 +1,12 @@
+name: picture_storage_repository
+description: Stores user profile pictures
+publish_to: 'none' # private package
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  firebase_storage: ^11.7.6
+  firebase_auth: ^4.20.0

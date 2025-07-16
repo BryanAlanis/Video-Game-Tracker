@@ -1,0 +1,13 @@
+name: games_api
+description: Retrieve games and all their relevant information
+publish_to: 'none' # private package
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  equatable: ^2.0.5
+  cloud_firestore: ^4.8.2
+  http: ^1.2.1

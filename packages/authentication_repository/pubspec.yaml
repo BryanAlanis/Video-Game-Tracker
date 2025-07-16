@@ -1,0 +1,14 @@
+name: authentication_repository
+description: Handle user authentication
+publish_to: 'none' # private package
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+dependencies:
+  equatable: ^2.0.5
+  firebase_auth: ^4.20.0
+  cloud_firestore: ^4.8.2
+

@@ -1,0 +1,58 @@
+name: video_game_tracker
+description: LetterboxD for video games kinda
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  device_preview: ^1.2.0
+  cupertino_icons: ^1.0.2
+  http: ^1.2.1
+  flutter_bloc: ^8.1.2
+  equatable: ^2.0.5
+  card_swiper : ^3.0.1
+  cloud_firestore: ^4.8.2
+  firebase_core: ^2.14.0
+  flutter_rating_bar: ^4.0.1
+  image_picker: ^1.1.1
+  image_cropper: ^6.0.0
+  user_list_api:
+    path: 'packages/user_list_api'
+  authentication_repository:
+    path: 'packages/authentication_repository'
+  user_interactions_api:
+    path: 'packages/user_interactions_api'
+  picture_storage_repository:
+    path: 'packages/picture_storage_repository'
+  games_api:
+    path: 'packages/games_api'
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^3.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
